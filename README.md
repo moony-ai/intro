@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [NextJS Tailwind Resume Page](http://demos.creative-tim.com/nextjs-tailwind-resume-page?ref=readme-ntrp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-resume-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-resume-page)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aissue+is%3Aclosed)
@@ -92,3 +93,6 @@ Dribbble: <https://dribbble.com/creativetim>
 Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://instagram.com/creativetimofficial>
+=======
+# intro
+>>>>>>> f6b92bdb332c9c405506299829e2c59d2e98a5d0
