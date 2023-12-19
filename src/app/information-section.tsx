@@ -109,10 +109,10 @@ export function InformationSection() {
       <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder="">
               교육 및 자격증
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
+            <Typography variant="lead" className="!text-gray-500" placeholder="">
               저희 팀의 교육 이력을 확인해보세요.
             </Typography>
           </div>
@@ -124,10 +124,10 @@ export function InformationSection() {
         </div>
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder="">
               경험
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
+            <Typography variant="lead" className="!text-gray-500" placeholder="">
               저희 팀의 개발 경험을 살펴보세요.
             </Typography>
           </div>
@@ -141,10 +141,10 @@ export function InformationSection() {
       <div className="container gap-20 mt-36 mx-auto items-center">
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold">
+            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder="">
               기술
             </Typography>
-            <Typography variant="lead" className="!text-gray-500">
+            <Typography variant="lead" className="!text-gray-500" placeholder="">
               저희 팀의 기술적 및 인간적 기술을 확인해보세요.
             </Typography>
           </div>

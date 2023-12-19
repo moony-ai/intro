@@ -21,12 +21,13 @@ export function Footer() {
                   href="#"
                   variant="small"
                   className="font-normal text-gray-700 hover:text-gray-900 transition-colors"
+                  placeholder=""
                 >
                   {link}
                 </Typography>
               </li>
             ))}
-            <Button color="blue">Subscribe</Button>
+            <Button color="blue" placeholder="">Subscribe</Button>
           </ul>
           <div>
             {Object.entries(SOCIAL_LINKS).map(([name, url]) => (
@@ -35,7 +36,7 @@ export function Footer() {
               </a>
             ))}
           </div>
-          <Typography className="text-center font-normal !text-gray-700">
+          <Typography className="text-center font-normal !text-gray-700" placeholder="">
             &copy; {CURRENT_YEAR} FourNode. All Rights Reserved.
           </Typography>
         </div>
