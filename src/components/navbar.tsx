@@ -59,7 +59,7 @@ export function Navbar() {
           className="text-lg font-bold"
           placeholder=""
         >
-          FourNode
+          ForNerd
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map((nav) => (

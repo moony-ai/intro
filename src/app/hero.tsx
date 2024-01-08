@@ -7,8 +7,8 @@ function Hero() {
     <div className="relative w-full">
       <div className="grid place-items-center min-h-[92vh] px-8">
         <div className="container mx-auto grid place-items-center h-max text-center">
-          <Typography variant="h1" color="blue-gray" placeholder="FourNode">
-            FourNode
+          <Typography variant="h1" color="blue-gray" placeholder="ForNerd">
+            ForNerd
           </Typography>
           <Typography
             variant="lead"
@@ -16,7 +16,7 @@ function Hero() {
             className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"
             placeholder=""
           >
-            FourNode에 오신 것을 환영합니다! 저희는 투명성, 예측 가능성, 이해 가능성, 그리고 합리적인 가격을 중시하는 웹 개발 팀입니다. 여기서 저희의 전문성과 혁신적인 프로젝트들을 만나보세요.
+            ForNerd에 오신 것을 환영합니다! 저희는 투명성, 소비자 맞춤형 디자인, 빠른 개발, 그리고 합리적인 가격을 중시하는 웹 개발 팀입니다. 여기서 저희의 전문성과 혁신적인 프로젝트들을 만나보세요.
           </Typography>
           <Typography className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase" placeholder="">
             Connect me on:

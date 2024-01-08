@@ -19,7 +19,7 @@ export function Testimonial() {
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
             placeholder=""
           >
-            저희와 함께한 고객님들의 경험을 들어보세요. 고객님의 만족이 저희의 가장 큰 성취입니다!
+            저희와 함께한 고객님들의 후기를 들어보세요. 고객님의 만족은 저희에게 최고의 보람입니다!
           </Typography>
         </div>
         <Card color="transparent" shadow={false} className="py-8 lg:flex-row" placeholder="">
@@ -31,10 +31,10 @@ export function Testimonial() {
                 className="mb-4 font-bold lg:max-w-xs"
                 placeholder=""
               >
-                모바일 앱 개발
+                기업홈페이지 개발
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500" placeholder="">
-                저는 FourNode와 중요한 웹 개발 프로젝트에서 함께 일할 기회가 있었고, 그들의 전문성과 프로페셔널함에 깊이 감명 받았습니다.
+              퀄리티나 전문가분의 응대가 너무나 좋았습니다! 정말 친절하시고 전문성과 프로페셔널함에 깊이 감명 받았습니다.
               </Typography>
               <Typography variant="h6" color="blue-gray" className="mb-0.5" placeholder="">
                 Michael - 기술 관리자

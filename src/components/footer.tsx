@@ -37,7 +37,7 @@ export function Footer() {
             ))}
           </div>
           <Typography className="text-center font-normal !text-gray-700" placeholder="">
-            &copy; {CURRENT_YEAR} FourNode. All Rights Reserved.
+            &copy; {CURRENT_YEAR} ForNerd. All Rights Reserved.
           </Typography>
         </div>
       </div>

@@ -5,119 +5,143 @@ import {
   BriefcaseIcon,
   FireIcon,
 } from "@heroicons/react/24/solid";
-
+import React from 'react';
 import InfoCard from "@/components/info-card";
+import '../../public/css/skill.css';
 
-const EDUCATION = [
+const PROJECTS = [
   {
-    icon: AcademicCapIcon,
-    title: "웹 개발 전문가 인증 - 웹 개발 연구소",
-    date: "2016",
-    children:
-      "이 종합적인 프로그램은 HTML5, CSS3, JavaScript, 반응형 디자인, 서버 사이드 스크립팅 및 웹 보안을 포함합니다.",
+  icon: AcademicCapIcon,
+  title: "WEPO - Android Application",
+  date: "6개월",
+  children:
+  "콩고민주 공화국의 중고거래 플랫폼. 주요 기능으로는 제품 업로드 및 검색, 제품 가격 통계, 메신져, 위치 기반 verification 등이 있습니다.",
   },
   {
-    icon: AcademicCapIcon,
-    title: "반응형 웹 디자인 인증 - FreeCodeCamp",
-    date: "2015",
-    children:
-      "이 인증은 다양한 화면 크기와 장치에 맞게 웹사이트를 디자인하고 개발할 수 있는 능력을 입증합니다.",
+  icon: AcademicCapIcon,
+  title: "Travel Gen AI - Web Application",
+  date: "1개월",
+  children:
+  "생성형 AI를 통해 여행상품을 등록할 수 있는 웹사이트. 주요 기능으로는 게시물 업로드 및 검색, 게시물 자동생성 (Gen AI) 기능 등이 있습니다.",
   },
   {
-    icon: AcademicCapIcon,
-    title: "자바스크립트 개발자 인증 - 코드 아카데미",
-    date: "2014",
-    children:
-      "이 인증은 자바스크립트 프로그래밍의 고급 숙련도를 입증하며, ES6 기능 및 실용적인 응용을 포함합니다.",
+  icon: AcademicCapIcon,
+  title: "Jobvis - Web Application",
+  date: "3개월",
+  children:
+  "Chat Bot을 활용한 일정관리 서비스. 주요기능으로는 챗봇 기능, 일정 확인 및 일정 예약 기능 등이 있습니다.",
   },
   {
-    icon: AcademicCapIcon,
-    title: "컴퓨터 과학 학사 - XYZ 대학교",
-    date: "2014-2016",
-    children:
-      "관련 과목: 데이터 구조, 알고리즘, 웹 개발, 소프트웨어 공학, 데이터베이스 관리.",
+  icon: AcademicCapIcon,
+  title: "Carrot news AI - Web Application",
+  date: "1개월",
+  children:
+  "Gen AI를 활용한 당근뉴스 자동 생성 서비스. 주요기능으로는 뉴스 게시물 자동 생성 등이 있습니다.",
   },
-];
-
+  ];
 
 const EXPERIENCE = [
   {
-    icon: BriefcaseIcon,
-    title: "프리랜서 웹 개발자",
-    date: "2023 - 현재",
-    children:
-      "제 작업의 핵심은 실제 웹 개발이었습니다. 프로젝트의 사양에 따라 코드를 작성하고 레이아웃을 디자인하며 기능을 만들었습니다.",
+  icon: BriefcaseIcon,
+  title: "농협중앙회 회계사",
+  date: "2020.11 - 현재",
+  children:
+  "보증업체 컨설팅 수행과 스마트팜기업보증 적정성 평가 모델 개발 등의 업무를 담당했습니다.",
   },
   {
-    icon: BriefcaseIcon,
-    title: "기술 팀 리더",
-    date: "2021 - 2023",
-    children:
-      "고도로 숙련된 기술 전문가 팀을 감독하고 지도함으로써 강력한 리더십을 제공했습니다.",
+  icon: BriefcaseIcon,
+  title: "국토안전관리원 위촉 1급",
+  date: "2017.07 - 2018.04",
+  children:
+  "재무성과 및 KPI 관리와 재무제표 작성 및 외부 감사 대응 등의 업무를 진행하였습니다.",
   },
   {
-    icon: BriefcaseIcon,
-    title: "시니어 웹 개발자",
-    date: "2017 - 2021",
-    children:
-      "웹 서비스를 위한 자동화된 테스트 프레임워크를 개편하여 디버깅 및 문제 해결 시간을 눈에 띄게 90% 감소시켰습니다.",
+  icon: BriefcaseIcon,
+  title: "중소벤처기업진흥공단 사원/팀원",
+  date: "2015.10 - 2017.04",
+  children:
+  "조기경보모델 개발 및 고도화, 사고채권 상각 및 매각진행 등의 업무를 수행했습니다.",
   },
   {
-    icon: BriefcaseIcon,
-    title: "주니어 웹 개발자",
-    date: "2015 - 2017",
-    children:
-      "다양한 산업 분야의 클라이언트를 위해 10개 이상의 반응형 웹사이트를 개발했습니다.",
+  icon: BriefcaseIcon,
+  title: "Accenture",
+  date: "2021.08 - 2023.11",
+  children:
+  "Facebook 프로젝트에 참여하여 콘텐츠 최적화 및 품질 보증 프로세스 개선 등의 업무를 수행했습니다.",
   },
-];
+  ];
+  
 
 const SKILLS = [
   {
-    icon: FireIcon,
-    title: "프론트엔드 프레임워크",
-    date: "기술적 기술",
-    children:
-      "React, Angular, Vue.js와 같은 프론트엔드 프레임워크를 활용하여 동적이고 반응형 웹 애플리케이션을 개발하는 데 능숙합니다. 사용자 경험에 중점을 둡니다.",
+    "name":"Python",
+    "level":"95%"
   },
   {
-    icon: FireIcon,
-    title: "세부 사항에 대한 주의",
-    date: "소프트 기술",
-    children:
-      "코드 품질, 사용자 인터페이스 디자인 및 테스팅에 있어 세심한 주의를 기울여 오류 없고 사용자 친화적인 웹 애플리케이션을 보장합니다.",
+    "name":"VueJs",
+    "level":"55%"
   },
   {
-    icon: FireIcon,
-    title: "반응형 웹 디자인",
-    date: "기술적 기술",
-    children:
-      "CSS Grid, Flexbox 및 미디어 쿼리를 사용하여 반응형 레이아웃을 만드는 데 숙련되어 있습니다. 웹사이트가 다양한 화면 크기와 장치에 맞게 원활하게 적응합니다.",
+    "name":"ReactJs",
+    "level":"70%"
   },
   {
-    icon: FireIcon,
-    title: "시간 관리",
-    date: "소프트 기술",
-    children:
-      "프로젝트 마감 기한을 맞추고, 작업을 효과적으로 우선 순위를 정하며, 동시에 여러 프로젝트를 처리할 수 있는 우수한 시간 관리 기술을 갖추고 있습니다.",
+    "name":"NextJs",
+    "level":"80%"
   },
+  {
+    "name":"CSS",
+    "level":"80%"
+  },
+  {
+    "name":"Nodejs",
+    "level":"70%"
+  },
+  {
+    "name":"JAVA",
+    "level":"80%"
+  }
 ];
 
+function getRandomColor() {
+  let letters = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
 
 export function InformationSection() {
+
+  const skillsList = SKILLS.map((skill) => {
+    const backgroundColor = getRandomColor();
+    const className = "bar-expand " + skill.name.toLowerCase();
+    const width = skill.level;
+
+    return (
+      <li key={skill.name} style={{ position: 'relative', marginBottom: '60px' }}>
+        <span style={{ width, backgroundColor, display: 'inline-block', height: '42px' }} className={className}></span>
+        <em style={{ position: 'relative', top: '-36px' }}>{skill.name}</em>
+      </li>
+    );
+  });
+
+
   return (
     <section className="pb-28 px-8">
       <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder="">
-              교육 및 자격증
+              프로젝트
             </Typography>
             <Typography variant="lead" className="!text-gray-500" placeholder="">
-              저희 팀의 교육 이력을 확인해보세요.
+              저희 팀의 프로젝트 이력을 확인해보세요.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
-            {EDUCATION.map((props, idx) => (
+            {PROJECTS.map((props, idx) => (
               <InfoCard key={idx} {...props} />
             ))}
           </div>
@@ -125,10 +149,10 @@ export function InformationSection() {
         <div>
           <div className="mb-10">
             <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder="">
-              경험
+              경력
             </Typography>
             <Typography variant="lead" className="!text-gray-500" placeholder="">
-              저희 팀의 개발 경험을 살펴보세요.
+              저희 팀의 다양한 경력을 살펴보세요.
             </Typography>
           </div>
           <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
@@ -145,13 +169,15 @@ export function InformationSection() {
               기술
             </Typography>
             <Typography variant="lead" className="!text-gray-500" placeholder="">
-              저희 팀의 기술적 및 인간적 기술을 확인해보세요.
+              저희 팀이 가지고 있는 기술을 확인해보세요.
             </Typography>
           </div>
-          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2">
-            {SKILLS.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
-            ))}
+          <div className="container mx-auto grid grid-cols-1 gap-16 gap-y-12">
+          <div className="nine columns main-col">
+              <div className="bars">
+                <ul className="skills">{skillsList}</ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
