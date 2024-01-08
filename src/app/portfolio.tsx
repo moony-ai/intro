@@ -17,11 +17,11 @@ type PortfolioProps = {
 };
 
 const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
-    if (!data) return null;
-
     const [isOpen, setIsOpen] = useState(false);
     const [currentImage, setCurrentImage] = useState('');
 
+    if (!data) return null;
+    
     const openLightbox = (imageUrl: string) => {
         setCurrentImage(imageUrl);
         setIsOpen(true);
